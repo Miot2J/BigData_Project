@@ -365,7 +365,7 @@ input[type="submit"],
             {% load static %} 
             <img src="{% static 'admin/img/picture.png' %}" alt="" />
               <div id="result">
-              <center style="padding:40px;">처리부서는 {{area}} ○○국 ○○과입니다. </center>
+              <center style="padding:40px;">처리부서는 {{area}} {{result}}입니다. </center>
               <a href="{% url 'inputform' %}" class="button special scrolly" style="float: inline-end; margin-left:-160px;"><center>이전으로</center></a>
               <a href="{% url 'index2' %}" class="button special scrolly" style="float: inline-end;margin-left: 10px;"><center>조직도 보기</center></a>
             </div>

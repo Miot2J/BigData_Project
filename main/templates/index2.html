@@ -234,11 +234,11 @@
 <body>
     {% load static %} 
     <section style="position:relative;">
-    <img class="pic" src= '/complaintPrj/main/ML_Data/picture.png' alt="" />
+    <img class="pic" src= "{% static 'admin/img/picture.png' %}" alt="" />
     <h1>조직도 바로가기</h1>
     <div id="box">
-    <a href="https://www.bsgangseo.go.kr/bsgangseo/contents.do?mId=0503070000" target = "_blank"><img src='/complaintPrj/static/admin/img/강서구.png' alt="" /></a>
-    <a href="http://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000127003004000" target = "_blank"><img src="../ML_Data/picture.png" alt="" /></a>
+    <a href="https://www.bsgangseo.go.kr/bsgangseo/contents.do?mId=0503070000" target = "_blank"><img src="{% static 'admin/img/강서구.png' %}" alt="" /></a>
+    <a href="http://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000127003004000" target = "_blank"><img src="{% static 'admin/img/금정구.png' %}" alt="" /></a>
     <a href="https://www.gijang.go.kr/index.gijang?menuCd=DOM_000000105006001000" target = "_blank"><img src="{% static 'admin/img/기장군.png' %}" alt="" /></a>
     <a href="https://www.bsnamgu.go.kr/index.namgu?menuCd=DOM_000000101005003000" target = "_blank"><img src="{% static 'admin/img/남구.png' %}" alt="" /></a>
     <a href="http://www.bsdonggu.go.kr/index.donggu?menuCd=DOM_000000105002001000" target = "_blank"><img src="{% static 'admin/img/동구.png' %}" alt="" /></a>
